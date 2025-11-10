@@ -1,0 +1,155 @@
+============================================================
+OpenTelemetry Hello World Demo
+============================================================
+
+Result: Hello, World!
+
+Result: Hello, OpenTelemetry!
+
+============================================================
+Trace output appears above/below
+============================================================
+{
+    "name": "greeter.greet",
+    "context": {
+        "trace_id": "0xa67d252ff504bb9ec435f01cb06d036f",
+        "span_id": "0xea92ba7caf0e5f3e",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x1a355cb4ad132353",
+    "start_time": "2025-11-10T04:20:15.975873Z",
+    "end_time": "2025-11-10T04:20:15.975908Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "user.name": "World"
+    },
+    "events": [
+        {
+            "name": "Generating greeting",
+            "timestamp": "2025-11-10T04:20:15.975898Z",
+            "attributes": {}
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.38.0",
+            "service.name": "hello-world-service",
+            "service.version": "1.0.0"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "greeter.process_greeting",
+    "context": {
+        "trace_id": "0xa67d252ff504bb9ec435f01cb06d036f",
+        "span_id": "0x1a355cb4ad132353",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2025-11-10T04:20:15.975808Z",
+    "end_time": "2025-11-10T04:20:15.975931Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "result.length": 13
+    },
+    "events": [
+        {
+            "name": "Starting greeting processing",
+            "timestamp": "2025-11-10T04:20:15.975834Z",
+            "attributes": {}
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.38.0",
+            "service.name": "hello-world-service",
+            "service.version": "1.0.0"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "greeter.greet",
+    "context": {
+        "trace_id": "0x5fe9a4c5bdfb11ea1bbd775880403c58",
+        "span_id": "0x3bf811131d3a4a74",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xb495647aa6f40bea",
+    "start_time": "2025-11-10T04:20:15.976000Z",
+    "end_time": "2025-11-10T04:20:15.976017Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "user.name": "OpenTelemetry"
+    },
+    "events": [
+        {
+            "name": "Generating greeting",
+            "timestamp": "2025-11-10T04:20:15.976013Z",
+            "attributes": {}
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.38.0",
+            "service.name": "hello-world-service",
+            "service.version": "1.0.0"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "greeter.process_greeting",
+    "context": {
+        "trace_id": "0x5fe9a4c5bdfb11ea1bbd775880403c58",
+        "span_id": "0xb495647aa6f40bea",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2025-11-10T04:20:15.975965Z",
+    "end_time": "2025-11-10T04:20:15.976033Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "result.length": 21
+    },
+    "events": [
+        {
+            "name": "Starting greeting processing",
+            "timestamp": "2025-11-10T04:20:15.975978Z",
+            "attributes": {}
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.38.0",
+            "service.name": "hello-world-service",
+            "service.version": "1.0.0"
+        },
+        "schema_url": ""
+    }
+}
