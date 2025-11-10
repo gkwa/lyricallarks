@@ -1,3 +1,4 @@
+(otel-hello-world) ➜  mac lyricallarks git:(master) python main.py
 ============================================================
 OpenTelemetry Hello World Demo
 ============================================================
@@ -12,14 +13,14 @@ Trace output appears above/below
 {
     "name": "greeter.greet",
     "context": {
-        "trace_id": "0xa67d252ff504bb9ec435f01cb06d036f",
-        "span_id": "0xea92ba7caf0e5f3e",
+        "trace_id": "0xfa3aac51c598ab37c474f540353b7a37",
+        "span_id": "0x0145a5826f0a48b9",
         "trace_state": "[]"
     },
     "kind": "SpanKind.INTERNAL",
-    "parent_id": "0x1a355cb4ad132353",
-    "start_time": "2025-11-10T04:20:15.975873Z",
-    "end_time": "2025-11-10T04:20:15.975908Z",
+    "parent_id": "0xf1a2c31cc4792da8",
+    "start_time": "2025-11-10T04:20:50.018814Z",
+    "end_time": "2025-11-10T04:20:50.018912Z",
     "status": {
         "status_code": "UNSET"
     },
@@ -29,7 +30,7 @@ Trace output appears above/below
     "events": [
         {
             "name": "Generating greeting",
-            "timestamp": "2025-11-10T04:20:15.975898Z",
+            "timestamp": "2025-11-10T04:20:50.018895Z",
             "attributes": {}
         }
     ],
@@ -48,14 +49,14 @@ Trace output appears above/below
 {
     "name": "greeter.process_greeting",
     "context": {
-        "trace_id": "0xa67d252ff504bb9ec435f01cb06d036f",
-        "span_id": "0x1a355cb4ad132353",
+        "trace_id": "0xfa3aac51c598ab37c474f540353b7a37",
+        "span_id": "0xf1a2c31cc4792da8",
         "trace_state": "[]"
     },
     "kind": "SpanKind.INTERNAL",
     "parent_id": null,
-    "start_time": "2025-11-10T04:20:15.975808Z",
-    "end_time": "2025-11-10T04:20:15.975931Z",
+    "start_time": "2025-11-10T04:20:50.018723Z",
+    "end_time": "2025-11-10T04:20:50.018961Z",
     "status": {
         "status_code": "UNSET"
     },
@@ -65,7 +66,7 @@ Trace output appears above/below
     "events": [
         {
             "name": "Starting greeting processing",
-            "timestamp": "2025-11-10T04:20:15.975834Z",
+            "timestamp": "2025-11-10T04:20:50.018766Z",
             "attributes": {}
         }
     ],
@@ -84,14 +85,14 @@ Trace output appears above/below
 {
     "name": "greeter.greet",
     "context": {
-        "trace_id": "0x5fe9a4c5bdfb11ea1bbd775880403c58",
-        "span_id": "0x3bf811131d3a4a74",
+        "trace_id": "0xebc79c55b12d613c6b262f080b316c29",
+        "span_id": "0x73761a031c71fc8a",
         "trace_state": "[]"
     },
     "kind": "SpanKind.INTERNAL",
-    "parent_id": "0xb495647aa6f40bea",
-    "start_time": "2025-11-10T04:20:15.976000Z",
-    "end_time": "2025-11-10T04:20:15.976017Z",
+    "parent_id": "0xa85a240fa4aa8169",
+    "start_time": "2025-11-10T04:20:50.019083Z",
+    "end_time": "2025-11-10T04:20:50.019100Z",
     "status": {
         "status_code": "UNSET"
     },
@@ -101,7 +102,7 @@ Trace output appears above/below
     "events": [
         {
             "name": "Generating greeting",
-            "timestamp": "2025-11-10T04:20:15.976013Z",
+            "timestamp": "2025-11-10T04:20:50.019096Z",
             "attributes": {}
         }
     ],
@@ -120,14 +121,14 @@ Trace output appears above/below
 {
     "name": "greeter.process_greeting",
     "context": {
-        "trace_id": "0x5fe9a4c5bdfb11ea1bbd775880403c58",
-        "span_id": "0xb495647aa6f40bea",
+        "trace_id": "0xebc79c55b12d613c6b262f080b316c29",
+        "span_id": "0xa85a240fa4aa8169",
         "trace_state": "[]"
     },
     "kind": "SpanKind.INTERNAL",
     "parent_id": null,
-    "start_time": "2025-11-10T04:20:15.975965Z",
-    "end_time": "2025-11-10T04:20:15.976033Z",
+    "start_time": "2025-11-10T04:20:50.019021Z",
+    "end_time": "2025-11-10T04:20:50.019116Z",
     "status": {
         "status_code": "UNSET"
     },
@@ -137,7 +138,7 @@ Trace output appears above/below
     "events": [
         {
             "name": "Starting greeting processing",
-            "timestamp": "2025-11-10T04:20:15.975978Z",
+            "timestamp": "2025-11-10T04:20:50.019059Z",
             "attributes": {}
         }
     ],
@@ -153,3 +154,4 @@ Trace output appears above/below
         "schema_url": ""
     }
 }
+(otel-hello-world) ➜  mac lyricallarks git:(master)
